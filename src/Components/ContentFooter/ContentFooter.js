@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Image, Text} from 'react-native';
 import styles from './ContentFooter.style';
-function ContentFooter() {
+function ContentFooter({userName, description}) {
   return (
     <View>
       <View style={styles.profileAndTitle}>
@@ -19,14 +19,11 @@ function ContentFooter() {
             source={require('../../assets/post.jpg')}
           />
         </View>
-        <Text style={styles.title}>emre and other people liked</Text>
+        <Text style={styles.title}>other people liked</Text>
       </View>
       <View style={styles.commentContainer}>
-        <Text style={styles.commentTitle}>UserName </Text>
-        <Text style={styles.commentText}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </Text>
+        <Text style={styles.commentTitle}>{userName}</Text>
+        <Text style={styles.commentText}>{description}</Text>
       </View>
     </View>
   );

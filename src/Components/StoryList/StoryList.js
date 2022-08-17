@@ -1,16 +1,19 @@
 import React from 'react';
-import {ScrollView} from 'react-native';
+import {ScrollView, FlatList, View} from 'react-native';
+import data from '../../data.json';
 import Stories from '../Stories/Stories';
 function StoryList() {
+  console.log(data);
   return (
-    <ScrollView horizontal={true}>
-      <Stories />
-      <Stories />
-      <Stories />
-      <Stories />
-      <Stories />
-      <Stories />
-    </ScrollView>
+    <View>
+      <FlatList
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        keyExtractor={item => item.id}
+        data={data}
+        renderItem={item => <Stories data={item} />}
+      />
+    </View>
   );
 }
 

@@ -45,6 +45,7 @@ export default StyleSheet.create({
     fontSize: 14,
   },
   commentText: {
+    marginLeft: 5,
     marginTop: 5,
     color: '#000',
     fontSize: 14,

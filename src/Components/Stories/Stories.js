@@ -1,10 +1,11 @@
 import React from 'react';
-import {View, Image} from 'react-native';
+import {View, Image, Text} from 'react-native';
 import styles from './Stories.style';
-function Stories() {
+function Stories({data}) {
   return (
     <View>
-      <Image style={styles.image} source={require('../../assets/post.jpg')} />
+      <Image style={styles.image} source={{uri: data.item.profilePicture}} />
+      <Text style={styles.text}>{data.item.userName}</Text>
     </View>
   );
 }

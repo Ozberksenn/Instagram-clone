@@ -3,8 +3,9 @@ import {SafeAreaView, View, ScrollView, Image} from 'react-native';
 
 import Header from './Components/Header/Header';
 import StoryList from './Components/StoryList/StoryList';
-import Content from './Components/Content/Content';
+
 import styles from './App.style';
+import ContentList from './Components/ContentList/ContentList';
 function App() {
   return (
     <SafeAreaView>
@@ -12,7 +13,7 @@ function App() {
         <Header />
         <StoryList />
         <View style={styles.line}></View>
-        <Content />
+        <ContentList />
       </ScrollView>
     </SafeAreaView>
   );
