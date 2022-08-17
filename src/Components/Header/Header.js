@@ -1,8 +1,7 @@
 import React from 'react';
-import {View, Image} from 'react-native';
+import {View, Image, ScrollView, Text} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'; // Vector-Icons paketini import ediyoruz.
 import styles from './Header.style'; // style dosyasını çağırıyoruz.
-import Storys from '../Storys/Storys';
 function Header() {
   return (
     <View>
@@ -17,13 +16,6 @@ function Header() {
           <Icon style={styles.iconSend} name="send-outline" />
         </View>
       </View>
-
-      <Storys />
-      <Storys />
-      <Storys />
-      <Storys />
-      <Storys />
-      <Storys />
     </View>
   );
 }
