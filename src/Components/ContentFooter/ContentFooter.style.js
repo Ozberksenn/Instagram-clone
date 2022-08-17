@@ -43,6 +43,7 @@ export default StyleSheet.create({
     color: '#000',
     fontWeight: '800',
     fontSize: 14,
+    marginBottom: 20,
   },
   commentText: {
     marginLeft: 5,

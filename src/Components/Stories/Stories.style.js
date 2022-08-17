@@ -13,4 +13,18 @@ export default StyleSheet.create({
   text: {
     textAlign: 'center',
   },
+  iconContainer: {
+    width: 25,
+    height: 25,
+    backgroundColor: 'red',
+    borderRadius: 50,
+    position: 'absolute',
+    bottom: 20,
+    right: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  plus: {
+    color: '#fff',
+  },
 });

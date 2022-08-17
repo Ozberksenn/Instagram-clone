@@ -3,7 +3,6 @@ import {ScrollView, FlatList, View} from 'react-native';
 import data from '../../data.json';
 import Stories from '../Stories/Stories';
 function StoryList() {
-  console.log(data);
   return (
     <View>
       <FlatList

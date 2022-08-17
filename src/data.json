@@ -3,11 +3,13 @@
         {
             "id" : 1,
             "userName" : "ozberksen",
-            "profilePicture" : "https://picsum.photos/id/236/200/300",
+            "profilePicture" : "https://picsum.photos/id/230/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/237/200/300",
-                    "description" : "Hello World !"
+                    "image" : "https://picsum.photos/id/100/200/300",
+                    "description" : "Hello World !",
+                    "liked" : 16
+                    
                 }
             ]
         },
@@ -17,19 +19,21 @@
             "profilePicture" : "https://picsum.photos/id/239/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/237/200/300",
-                    "description" : "My Project"
+                    "image" : "https://picsum.photos/id/101/200/300",
+                    "description" : "My Project",
+                    "liked" : 45
                 }
             ]
         },
         {
             "id" : 3,
             "userName" : "tyasarr",
-            "profilePicture" : "https://picsum.photos/id/237/200/300",
+            "profilePicture" : "https://picsum.photos/id/222/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/103/200/300",
-                    "description" : "The Magic is in you"
+                    "image" : "https://www.cumhuriyet.com.tr/Archive/2020/6/5/1743220/kapak_053249.jpg",
+                    "description" : "The Magic is in you",
+                    "liked" : 98
                 }
             ]
         },
@@ -39,8 +43,9 @@
             "profilePicture" : "https://picsum.photos/id/235/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/105/200/300",
-                    "description" : "There is a light never goes out."
+                    "image" : "https://picsum.photos/id/102/200/300",
+                    "description" : "There is a light never goes out.",
+                    "liked" : 10
                 }
             ]
         },
@@ -50,8 +55,9 @@
             "profilePicture" : "https://picsum.photos/id/236/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/106/200/300",
-                    "description" : "You will never walk alone !"
+                    "image" : "https://picsum.photos/id/103/200/300",
+                    "description" : "You will never walk alone !",
+                    "liked" : 15
                 }
             ]
         },
@@ -61,8 +67,9 @@
             "profilePicture" : "https://picsum.photos/id/237/200/300",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/237/200/300",
-                    "description" : "bla bla bla "
+                    "image" : "https://picsum.photos/id/104/200/300",
+                    "description" : "bla bla bla ",
+                    "liked" : 30
                 }
             ]
         }

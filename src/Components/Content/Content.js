@@ -8,18 +8,25 @@ const Content = ({data}) => {
   return (
     <View>
       <View style={styles.profilContainer}>
-        <Image
-          style={styles.profilPicture}
-          source={{
-            uri: data.item.profilePicture,
-          }}
-        />
-        <Text style={styles.profilTitle}>{data.item.userName}</Text>
+        <View style={styles.profilAndUser}>
+          <Image
+            style={styles.profilPicture}
+            source={{
+              uri: data.item.profilePicture,
+            }}
+          />
+          <Text style={styles.profilTitle}>{data.item.userName}</Text>
+        </View>
+        <View>
+          <Icon style={styles.dotIcon} size={25} name="dots-horizontal" />
+        </View>
       </View>
       <View>
         <Image
           style={styles.postImage}
-          source={{uri: data.item.posts[0].image}}
+          source={{
+            uri: data.item.posts[0].image,
+          }}
         />
       </View>
       <View style={styles.iconContainer}>
@@ -28,6 +35,7 @@ const Content = ({data}) => {
         <Icon style={styles.iconSend} name="send-outline" />
       </View>
       <ContentFooter
+        liked={data.item.posts[0].liked}
         userName={data.item.userName}
         description={data.item.posts[0].description}
       />
