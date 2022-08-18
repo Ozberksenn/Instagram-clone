@@ -6,10 +6,12 @@ function Stories({data}) {
   return (
     <View>
       <Image style={styles.image} source={{uri: data.item.profilePicture}} />
+      {data.item.plus && (
+        <View style={styles.iconContainer}>
+          <Icon style={styles.plus} size={15} name="plus" />
+        </View>
+      )}
 
-      <View style={styles.iconContainer}>
-        <Icon style={styles.plus} size={25} name="plus" />
-      </View>
       <Text style={styles.text}>{data.item.userName}</Text>
     </View>
   );

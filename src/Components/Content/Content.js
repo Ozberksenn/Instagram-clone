@@ -4,7 +4,6 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import styles from './Content.style';
 import ContentFooter from '../ContentFooter/ContentFooter';
 const Content = ({data}) => {
-  console.log(data);
   return (
     <View>
       <View style={styles.profilContainer}>

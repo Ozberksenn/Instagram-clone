@@ -11,12 +11,15 @@ export default StyleSheet.create({
     resizeMode: 'contain',
   },
   text: {
+    color: '#000',
     textAlign: 'center',
   },
   iconContainer: {
-    width: 25,
-    height: 25,
-    backgroundColor: 'red',
+    borderWidth: 5,
+    borderColor: '#fff',
+    width: 30,
+    height: 30,
+    backgroundColor: '#3f729b',
     borderRadius: 50,
     position: 'absolute',
     bottom: 20,
