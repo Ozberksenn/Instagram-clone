@@ -4,7 +4,7 @@
             "plus" : true,
             "id" : 1,
             "userName" : "ozberksen",
-            "profilePicture" : "https://picsum.photos/id/230/200/300",
+            "profilePicture" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/150112437_1126512827793608_7721345667735096106_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=cp9LPdzuBakAX88Z_x2&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT-7v1h8fiDauP5721f05R2QsqKfsYfe_K1qIGggkqNxPA&oe=6305CA4F&_nc_sid=8fd12b",
             "posts" : [
                 {
                     "image" : "https://picsum.photos/id/100/200/300",
@@ -16,21 +16,7 @@
         },
         {
             "id" : 2,
-            "userName" : "eneszenler",
-            "profilePicture" : "https://picsum.photos/id/239/200/300",
-            "posts" : [
-                {
-                    "image" : "https://picsum.photos/id/101/200/300",
-                    "description" : "My Project",
-                    "liked" : 45,
-                    "comment" : 1
-                    
-                }
-            ]
-        },
-        {
-            "id" : 3,
-            "userName" : "tyasarr",
+            "userName" : "SportNews",
             "profilePicture" : "https://picsum.photos/id/222/200/300",
             "posts" : [
                 {
@@ -42,12 +28,12 @@
             ]
         },
         {
-            "id" : 4,
+            "id" : 3,
             "userName" : "thesmiths",
-            "profilePicture" : "https://picsum.photos/id/235/200/300",
+            "profilePicture" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/70559381_2783740071657931_7922006072972279808_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Uk8t-1tqtX0AX8VGr6s&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT_TEVfJLoQR8xkT8UqgMWbYmqyIbE-h1rjbpsowldRdNA&oe=63054387&_nc_sid=5cbaad",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/102/200/300",
+                    "image" : "https://pbs.twimg.com/media/E3__Z-eVcAQyZZ2.jpg",
                     "description" : "There is a light never goes out.",
                     "liked" : 10,
                     "comment" : 9
@@ -55,9 +41,9 @@
             ]
         },
         {
-            "id" : 5,
+            "id" : 4,
             "userName" : "liverpoolfc",
-            "profilePicture" : "https://picsum.photos/id/236/200/300",
+            "profilePicture" : "https://instagram.fist1-2.fna.fbcdn.net/v/t51.2885-19/296479952_454446879625331_2100270047902673546_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=2CuY04veFloAX8u3wb8&edm=APU89FABAAAA&ccb=7-5&oh=00_AT_IQzAxoKGq7kE9UVHSK04NhPkVuHcUXF380Lna9LsqEA&oe=6304DCA7&_nc_sid=86f79a",
             "posts" : [
                 {
                     "image" : "https://picsum.photos/id/103/200/300",
@@ -68,14 +54,28 @@
             ]
         },
         {
-            "id" : 6,
+            "id" : 5,
             "userName" : "eloocr",
-            "profilePicture" : "https://picsum.photos/id/237/200/300",
+            "profilePicture" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/133708295_403315904423215_8762506315596195066_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=x1TVUjkspdQAX9DhJk1&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8kscc2fGqRDMhNod7JIQNG_7pkS9NzcoifUwnXGAjLRQ&oe=63052319&_nc_sid=8fd12b",
             "posts" : [
                 {
-                    "image" : "https://picsum.photos/id/104/200/300",
+                    "image" : "https://www.bestcoffee.com.tr/wp-content/uploads/2021/10/en-iyi-7-filtre-kahve-cesidi-ozellikleri.jpg",
                     "description" : "bla bla bla ",
                     "liked" : 30,
+                    "comment" : 1
+                    
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "userName" : "eneszenler",
+            "profilePicture" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/299328533_1677771822578155_234716165293358214_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Z5ZILSv7O7YAX-rP7ja&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT8PQ2cCjjJxXp21COMtkGFFdQCjuTfwZdm8g8garfgtcA&oe=63060794&_nc_sid=5cbaad",
+            "posts" : [
+                {
+                    "image" : "https://picsum.photos/id/103/200/300",
+                    "description" : "Coffee",
+                    "liked" : 45,
                     "comment" : 1
                     
                 }
