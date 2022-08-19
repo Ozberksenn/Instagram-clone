@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Image, Text} from 'react-native';
 import styles from './ContentFooter.style';
-function ContentFooter({liked, userName, description}) {
+function ContentFooter({comment, liked, userName, description}) {
   return (
     <View>
       <View style={styles.profileAndTitle}>
@@ -24,6 +24,9 @@ function ContentFooter({liked, userName, description}) {
       <View style={styles.commentContainer}>
         <Text style={styles.commentTitle}>{userName}</Text>
         <Text style={styles.commentText}>{description}</Text>
+      </View>
+      <View>
+        <Text style={styles.seeComments}>{comment} yorumun tümünü gör </Text>
       </View>
     </View>
   );

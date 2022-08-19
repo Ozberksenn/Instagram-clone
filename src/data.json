@@ -9,8 +9,8 @@
                 {
                     "image" : "https://picsum.photos/id/100/200/300",
                     "description" : "Hello World !",
-                    "liked" : 16
-                    
+                    "liked" : 16,
+                    "comment" : 3
                 }
             ]
         },
@@ -22,7 +22,9 @@
                 {
                     "image" : "https://picsum.photos/id/101/200/300",
                     "description" : "My Project",
-                    "liked" : 45
+                    "liked" : 45,
+                    "comment" : 1
+                    
                 }
             ]
         },
@@ -34,7 +36,8 @@
                 {
                     "image" : "https://www.cumhuriyet.com.tr/Archive/2020/6/5/1743220/kapak_053249.jpg",
                     "description" : "The Magic is in you",
-                    "liked" : 98
+                    "liked" : 98,
+                    "comment" : 5
                 }
             ]
         },
@@ -46,7 +49,8 @@
                 {
                     "image" : "https://picsum.photos/id/102/200/300",
                     "description" : "There is a light never goes out.",
-                    "liked" : 10
+                    "liked" : 10,
+                    "comment" : 9
                 }
             ]
         },
@@ -58,7 +62,8 @@
                 {
                     "image" : "https://picsum.photos/id/103/200/300",
                     "description" : "You will never walk alone !",
-                    "liked" : 15
+                    "liked" : 15,
+                    "comment" : 11
                 }
             ]
         },
@@ -70,7 +75,9 @@
                 {
                     "image" : "https://picsum.photos/id/104/200/300",
                     "description" : "bla bla bla ",
-                    "liked" : 30
+                    "liked" : 30,
+                    "comment" : 1
+                    
                 }
             ]
         }

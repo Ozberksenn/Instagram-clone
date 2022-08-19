@@ -43,12 +43,16 @@ export default StyleSheet.create({
     color: '#000',
     fontWeight: '800',
     fontSize: 14,
-    marginBottom: 20,
   },
   commentText: {
     marginLeft: 5,
     marginTop: 5,
     color: '#000',
     fontSize: 14,
+  },
+  seeComments: {
+    marginTop: 5,
+    marginLeft: 10,
+    marginBottom: 20,
   },
 });

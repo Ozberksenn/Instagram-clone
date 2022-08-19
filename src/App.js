@@ -13,7 +13,6 @@ function App() {
         <Header />
         <StoryList />
         <View style={styles.line}></View>
-
         <ContentList />
       </ScrollView>
     </SafeAreaView>

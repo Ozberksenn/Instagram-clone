@@ -2,10 +2,21 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   image: {
+    borderWidth: 2,
+    borderColor: '#fe5aa0',
     borderRadius: 50,
     marginLeft: 10,
     marginRight: 10,
-    borderColor: '#000',
+    width: 80,
+    height: 80,
+    resizeMode: 'contain',
+  },
+  imageBorder: {
+    borderWidth: 2,
+    borderColor: '#fff',
+    borderRadius: 50,
+    marginLeft: 10,
+    marginRight: 10,
     width: 80,
     height: 80,
     resizeMode: 'contain',

@@ -34,6 +34,7 @@ const Content = ({data}) => {
         <Icon style={styles.iconSend} name="send-outline" />
       </View>
       <ContentFooter
+        comment={data.item.posts[0].comment}
         liked={data.item.posts[0].liked}
         userName={data.item.userName}
         description={data.item.posts[0].description}

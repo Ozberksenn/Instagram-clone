@@ -6,7 +6,12 @@ function ContentList() {
   console.log(data);
   return (
     <View>
-      <FlatList data={data} renderItem={item => <Content data={item} />} />
+      <FlatList
+        keyExtractor={item => item.id}
+        showsHorizontalScrollIndicator={false}
+        data={data}
+        renderItem={item => <Content data={item} />}
+      />
     </View>
   );
 }
